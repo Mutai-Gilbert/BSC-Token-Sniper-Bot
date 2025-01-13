@@ -1,0 +1,14 @@
+{
+  "name": "bsc-sniper-bot",
+  "version": "1.0.0",
+  "description": "BSC Token Sniper Bot",
+  "main": "src/sniper.js",
+  "scripts": {
+    "start": "node src/sniper.js",
+    "generate-wallet": "node src/utils/generateWallet.js"
+  },
+  "dependencies": {
+    "web3": "^1.10.0",
+    "dotenv": "^16.0.3"
+  }
+}
